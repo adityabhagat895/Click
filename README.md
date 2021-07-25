@@ -205,27 +205,27 @@ span img{
          	position: absolute;
          	
          	opacity: 0.95;
-         	width: 300px;
-         	height: 300px;
+         	width: 200px;
+         	height: 200px;
          	border:4px solid black;
          }
 		img:nth-child(1){
-			transform:rotateY(0deg) translateZ(150px);
+			transform:rotateY(0deg) translateZ(100px);
 		}
 		img:nth-child(2){
-			transform:rotateY(90deg) translateZ(150px);
+			transform:rotateY(90deg) translateZ(100px);
 		}
 		img:nth-child(3){
-			transform:rotateY(180deg) translateZ(150px);
+			transform:rotateY(180deg) translateZ(100px);
 		}
 		img:nth-child(4){
-			transform:rotateY(-90deg) translateZ(150px);
+			transform:rotateY(-90deg) translateZ(100px);
 		}
 		img:nth-child(5){
-			transform:rotateX(90deg) translateZ(150px);
+			transform:rotateX(90deg) translateZ(100px);
 		}
 		img:nth-child(6){
-			transform:rotateX(-90deg) translateZ(150px);
+			transform:rotateX(-90deg) translateZ(100px);
 		}
 		
 
