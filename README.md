@@ -353,7 +353,7 @@ span img{
 	</span>
 
 	<span>
-		<img src="6.jpg">
+		<img src="22.jpg">
 	</span>
 <span>
 	<img src="7.jpg">
