@@ -2,7 +2,8 @@
 <head>
 	<title>Box</title>
 	<link rel="icon" type="image/x-icon" href="https://www.pinclipart.com/picdir/big/204-2049921_cube-clipart-unix-png-download.png" />
-	
+<!--<link rel="stylesheet" media="screen and (max-width: 750px)" href="max-width 750.css">-->
+
 
 	<style>
 		html{
@@ -22,7 +23,7 @@ justify-content: center;
          	align-items: center;
 
          }
-         @media screen and (max-width: 1200px){}
+         
          #main{
          
          	perspective: 800px;
@@ -74,82 +75,7 @@ justify-content: center;
 			transform:rotateX(-90deg) translateZ(100px);
 		}
 		
-/*@media only screen and (max-width: 600px) {
-	#main{
-		margin-left: 200px;
-	}
-	#img{
-         	transform-style: preserve-3d;
-         	width:200px;
-         	height:200PX;
-         	margin: auto;
-         	animation: cube 15s infinite linear ;
-         	position: relative;
-}
-#img  img{
-         	position: absolute;
-         	
-         	opacity: 0.95;
-         	width: 200px;
-         	height: 200px;
-         	border:4px solid black;
-         }
-		img:nth-child(1){
-			transform:rotateY(0deg) translateZ(100px);
-		}
-		img:nth-child(2){
-			transform:rotateY(90deg) translateZ(100px);
-		}
-		img:nth-child(3){
-			transform:rotateY(180deg) translateZ(100px);
-		}
-		img:nth-child(4){
-			transform:rotateY(-90deg) translateZ(100px);
-		}
-		img:nth-child(5){
-			transform:rotateX(90deg) translateZ(100px);
-		}
-		img:nth-child(6){
-			transform:rotateX(-90deg) translateZ(100px);
-		}
-		#main2 span{
-         	position: absolute;
-         	transform-style: preserve-3d;
-         	transform-origin: center;
-         	width: 100%;
-         	height: 100%;
-         }
-		span:nth-child(1){
-			transform:rotateY(45deg) translateZ(100px);
-		}
-		span:nth-child(2){
-			transform:rotateY(90deg) translateZ(100px);
-		}
-		span:nth-child(3){
-			transform:rotateY(135deg) translateZ(100px);
-		}
-		span:nth-child(4){
-			transform:rotateY(180deg) translateZ(100px);
-		}
-		span:nth-child(5){
-			transform:rotateY(225deg) translateZ(100px);
-		}
-		span:nth-child(6){
-			transform:rotateY(270deg) translateZ(100px);
-		}
-		span:nth-child(7){
-			transform:rotateY(315deg) translateZ(20px);
-		}
-		span:nth-child(8){
-			transform:rotateY(360deg) translateZ(20px);
-		}
-span img{
-	position: absolute;
-	height: 10%;
-	width: 10%;
-}
-}
-*/
+
 #main2{
 	display: flex;
          	justify-content: center;
@@ -161,6 +87,7 @@ span img{
          	animation:slideShow  30s infinite linear ;
          	margin-top: 200px;
          	margin-bottom: 200px;	
+	margin-left:50px;
 
          }
          @keyframes slideShow{
@@ -233,6 +160,7 @@ span img{
 	height: 50%;
 	width: 50%;
 }
+
 	</style>
 </head>
 <body>
@@ -317,5 +245,6 @@ span img{
 	<source src="bgm.mp3" type="audio/mp3">
 </audio>
 </div>
-	</body>
-	</html>
+
+</body>
+</html>
