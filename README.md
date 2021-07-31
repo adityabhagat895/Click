@@ -205,27 +205,27 @@ span img{
          	position: absolute;
          	
          	opacity: 0.95;
-         	width: 200px;
-         	height: 200px;
+         	width: 300px;
+         	height: 300px;
          	border:4px solid black;
          }
 		img:nth-child(1){
-			transform:rotateY(0deg) translateZ(100px);
+			transform:rotateY(0deg) translateZ(150px);
 		}
 		img:nth-child(2){
-			transform:rotateY(90deg) translateZ(100px);
+			transform:rotateY(90deg) translateZ(150px);
 		}
 		img:nth-child(3){
-			transform:rotateY(180deg) translateZ(100px);
+			transform:rotateY(180deg) translateZ(150px);
 		}
 		img:nth-child(4){
-			transform:rotateY(-90deg) translateZ(100px);
+			transform:rotateY(-90deg) translateZ(150px);
 		}
 		img:nth-child(5){
-			transform:rotateX(90deg) translateZ(100px);
+			transform:rotateX(90deg) translateZ(150px);
 		}
 		img:nth-child(6){
-			transform:rotateX(-90deg) translateZ(100px);
+			transform:rotateX(-90deg) translateZ(150px);
 		}
 		
 
@@ -389,10 +389,10 @@ span img{
 </span>
 <span>
 	
-	<img src="17.jpg">
+	<img src="23.jpg">
 </span>
 <span>
-	<img src="18.jpg">
+	<img src="24.jpg">
 </span>
 <span>
 	<img src="19.jpg">
